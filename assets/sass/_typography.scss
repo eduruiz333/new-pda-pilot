@@ -1,0 +1,104 @@
+@font-face {
+    font-family: poppinsLight;
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: poppinsMedium;
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: poppinsItalic;
+    src: url('../fonts/Poppins/Poppins-Italic.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: futuraPTMedium;
+    src: url('../fonts/FuturaPT/FuturaPTMedium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: futuraPTBold;
+    src: url('../fonts/FuturaPT/FuturaPTBold.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: futuraPTCondMedium;
+    src: url('../fonts/FuturaPT/FuturaPTCondMedium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: futuraPTCondExtraBold;
+    src: url('../fonts/FuturaPT/FuturaPTCondExtraBold.otf');
+    font-weight: 700;
+}
+
+$poppinsLight: 'poppinsLight', sans-serif;
+$poppinsRegular: 'poppinsRegular', sans-serif;
+$poppinsMedium: 'PoppinsMedium', sans-serif;
+$poppinsBold: 'poppinsBold', sans-serif;
+$poppinsSemiBold: 'poppinsSemiBold', sans-serif;
+$poppinsItalic: 'poppinsItalic', sans-serif;
+
+$futuraPTMedium: 'futuraPTMedium', sans-serif;
+$futuraPTBold: 'futuraPTBold', sans-serif;
+$futuraPTCondMedium: 'futuraPTCondMedium', sans-serif;
+$futuraPTCondExtraBold: 'futuraPTCondExtraBold', sans-serif;
+
+.poppinsLight {
+    font-family: $poppinsLight;
+}
+
+.poppinsMedium {
+    font-family: $poppinsMedium;
+}
+
+.poppinsBold {
+    font-family: $poppinsBold;
+}
+
+.poppinsItalic {
+    font-family: $poppinsItalic;
+}
+
+.futuraPTMedium {
+    font-family: $futuraPTMedium;
+}
+
+.futuraPTCondMedium {
+    font-family: $futuraPTCondMedium;
+}
+
+.futuraPTCondExtraBold {
+    font-family: $futuraPTCondExtraBold;
+}
+
+body {
+    font-family: $poppinsMedium;
+    color: $black-333333;
+}
