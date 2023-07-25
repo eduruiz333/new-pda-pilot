@@ -12,5 +12,8 @@ On Linux Ctrl + Shift + I.
 Selecionar todas as ocorrências em um arquivo: Ctrl + Shift + J
 
 
-==> https://eduruiz333.github.io/izihub/
+==> https://eduruiz333.github.io/new-pda-pilot/
+
+https://www.figma.com/file/LDNnoi534vSbgWSWeRKgVl/Portal-Varejo---Nova-Vers%C3%A3o?type=design&node-id=438-1097&mode=design&t=icoR5J3wfuBhKvY2-0
+
 
