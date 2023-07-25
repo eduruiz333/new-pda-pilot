@@ -82,11 +82,46 @@
 
 body {
   font-family: "PoppinsMedium", sans-serif;
-  color: #333333;
 }
 
 /* Header
 --------------------------------------------------- */
+.new-pda header {
+  background-color: #004165;
+}
+.new-pda header .notice-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.new-pda header .notice-bar p {
+  color: #FFFFFF;
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+}
+.new-pda header .notice-bar p > strong {
+  font-family: "poppinsBold", sans-serif;
+}
+.new-pda header .notice-bar a {
+  color: #FFFFFF;
+  font-family: "poppinsBold", sans-serif;
+  text-decoration: none;
+}
+.new-pda header .notice-bar a::after {
+  content: ">";
+  display: inline-block;
+  margin-left: 5px;
+}
+.new-pda header .login-bar {
+  color: #FFFFFF;
+}
+.new-pda header .login-bar h1 {
+  font-family: "futuraPTCondExtraBold", sans-serif;
+  font-size: 1.875rem;
+}
+.new-pda header .nav-main * {
+  color: #FFFFFF;
+}
+
 /* Body
 --------------------------------------------------- */
 .new-pda {
@@ -104,3 +139,8 @@ body {
 --------------------------------------------------- */
 /* Responsive
 --------------------------------------------------- */
+@media (min-width: 640px) {
+  .new-pda header .login-bar h1 {
+    font-size: 2.5rem;
+  }
+}

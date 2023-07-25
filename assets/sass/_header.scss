@@ -1,6 +1,48 @@
 .new-pda {
     
     header {
+        background-color: $blue-004165;
         
+        .notice-bar {
+            background-color: rgba($color: $black-000000, $alpha: 0.5);
+
+            p {
+                color: $white-FFFFFF;
+                font-family: $poppinsRegular;
+                font-size: $px-14;
+                line-height: $px-14;
+    
+                > strong {
+                    font-family: $poppinsBold;
+                }
+            }
+    
+            a {
+                color: $white-FFFFFF;
+                font-family: $poppinsBold;
+                text-decoration: none;
+
+                &::after {
+                    content: ">";
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+            }
+        }
+        
+        .login-bar {
+            color: $white-FFFFFF;
+
+            h1 {
+                font-family: $futuraPTCondExtraBold;
+                font-size: $px-30;
+            }
+        }
+
+        .nav-main {
+            * {
+                color: $white-FFFFFF;
+            }
+        }
     }
 }

@@ -8,7 +8,14 @@
 // s — Small Screens
 @media (min-width: 640px) {
     .new-pda {
-    
+        header {
+            
+            .login-bar {
+                h1 {
+                    font-size: $px-40;
+                }
+            }
+        }
     }
 }
 
