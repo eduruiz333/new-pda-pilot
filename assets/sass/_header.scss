@@ -32,81 +32,192 @@
         
         .login-bar {
             color: $white-FFFFFF;
+            height: 70px;
 
-            h1 {
+            .main-title {
                 font-family: $futuraPTCondExtraBold;
                 font-size: $px-30;
             }
+
+            .login-area {
+
+                .logged-false {
+                    cursor: pointer;
+
+                    .cta-login {
+                        font-family: $poppinsBold;
+                        font-size: $px-14;
+                        display: flex;
+                        align-items: center;
+
+                        &::before {
+                            content: "";
+                            display: block;
+                            height: $px-25;
+                            width: $px-25;
+                            padding: 18px;
+                            margin-right: 10px;
+                            background: url("../img/icon-user.png") center center no-repeat;
+                            border: solid 2px $white-FFFFFF;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+
+                .logged-true {
+                    .user-info {
+                        .profile-picture {
+                            border-radius: 100%;
+                        }
+    
+                        .user-name {
+                            font-size: $px-16;
+                        }
+    
+                        .user-doc {
+                            font-size: $px-14;
+    
+                            &.cpf {
+                                &::before {
+                                    content: "CPF: ";
+                                }
+                            }
+                            &.cnpj {
+                                &::before {
+                                    content: "CNPJ: ";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
         }
 
-        .navbar {
-
-            .nav-link {
-                color: $blue-004165;
-            }
-
-            // Customização do menu hamburger
-            .navbar-toggler:focus,
-            .navbar-toggler:active,
-            .navbar-toggler-icon:focus {
-                outline: none;
-                box-shadow: none;
-                border: none;
-            }
-    
-            .navbar-toggler {
-                width: $px-20;
-                height: $px-20;
-                position: relative;
-                transition:  .5s ease-in-out;
-    
-                span {
-                    margin: 0;
-                    padding: 0;
+        .nav-main {
+            background-color: $white-FFFFFF;
+            
+            .navbar {
+                .mobile-tit-menu {
+                    font-family: $poppinsBold;
+                    font-size: $px-16;
+                    color: $blue-004165;
                 }
-    
-                .toggler-icon {
-                    display: block;
-                    position: absolute;
-                    height:  $px-3;
-                    width: 100%;
-                    background: $blue-004165;
-                    border-radius: $px-1;
-                    opacity: 1;
-                    left: 0;
-                    transform: rotate(0deg);
-                    transition: .25s ease-in-out;
-    
-                    &.top-bar {
-                        margin-top: 0;
-                        transform: rotate(135deg);
-                    }
-                    &.middle-bar {
-                        opacity: 0;
-                        filter: alpha(opacity=0);
-                    }
-                    &.bottom-bar {
-                        margin-top: 0;
-                        transform: rotate(-135deg);
-                    }
+
+                .navbar-toggler:focus,
+                .navbar-toggler:active,
+                .navbar-toggler-icon:focus {
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
                 }
-    
-                &.collapsed {
-                    .top-bar {
-                        margin-top: -$px-20;
-                        transform: rotate(0deg);
+        
+                .navbar-toggler {
+                    width: $px-20;
+                    height: $px-20;
+                    position: relative;
+                    transition: .5s ease-in-out;
+        
+                    span {
+                        margin: 0;
+                        padding: 0;
                     }
-                    .middle-bar {
+        
+                    .toggler-icon {
+                        display: block;
+                        position: absolute;
+                        height:  $px-3;
+                        width: 100%;
+                        background: $blue-004165;
+                        border-radius: $px-1;
                         opacity: 1;
-                        filter: alpha(opacity=100);
-                    }
-                    .bottom-bar {
-                        margin-top: $px-20;
+                        left: 0;
                         transform: rotate(0deg);
+                        transition: .25s ease-in-out;
+        
+                        &.top-bar {
+                            margin-top: 0;
+                            transform: rotate(135deg);
+                        }
+                        &.middle-bar {
+                            opacity: 0;
+                            filter: alpha(opacity=0);
+                        }
+                        &.bottom-bar {
+                            margin-top: 0;
+                            transform: rotate(-135deg);
+                        }
+                    }
+        
+                    &.collapsed {
+                        .top-bar {
+                            margin-top: -$px-20;
+                            transform: rotate(0deg);
+                        }
+                        .middle-bar {
+                            opacity: 1;
+                            filter: alpha(opacity=100);
+                        }
+                        .bottom-bar {
+                            margin-top: $px-20;
+                            transform: rotate(0deg);
+                        }
                     }
                 }
+    
+                .nav-link {
+                    font-family: $poppinsBold;
+                    font-size: $px-16;
+                    color: $blue-004165;
+
+                    &.active {
+                        display: none;
+                    }
+
+                    &.icon-signature {
+                        display: flex;
+                        align-items: center;
+
+                        &::before {
+                            content: "";
+                            display: block;
+                            width: 18px;
+                            height: 18px;
+                            background: url("../img/icon-signature.png") center center no-repeat;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    &.lang-opt {
+                        height: 28px;
+                        width: 28px;
+
+                        &.brazil {
+                            background: url("../img/icon-flag-brazil.png") center center no-repeat;
+                        }
+                    }
+                }
+    
+                .logout {
+                    font-family: $poppinsBold;
+                    font-size: $px-16;
+                    text-decoration: none;
+                    color: $white-FFFFFF;
+                    background-color: $blue-004165;
+                    text-align: center;
+                    padding: $px-15;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 100px;
+
+                    .fa-arrow-right-from-bracket {
+                        font-size: 20px;
+                        margin: -5px 0 0 10px;
+                    }
+                }
+                
             }
         }
+
 
 
 

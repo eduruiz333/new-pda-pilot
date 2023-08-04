@@ -15,7 +15,7 @@
 	<title>Portal de Assinaturas</title>
 </head>
 
-<body class="new-pda">
+<body class="new-pda active-menu item-01">
 	<header>
 		<section class="notice-bar d-none d-md-block">
 			<div class="container-fluid">
@@ -42,16 +42,39 @@
 			</div>
 		</section>
 
-		<section class="login-bar">
+		<section class="login-bar d-flex align-items-center">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col">
 						<div class="container py-2">
 							<div class="row">
 								<div class="col d-flex align-items-center justify-content-between">
-									<h1 class="main-title">Portal de Assinaturas</h1>
+									<h1 class="main-title d-md-block m-0 p-0">Portal de Assinaturas</h1>
 
-									<p class="login-area d-none d-md-block">ÁREA DE LOGIN</p>
+									<div class="login-area d-none d-md-block">
+
+										<div class="logged-false d-none d-md-flex align-items-center">
+											<p class="cta-login m-0 p-0">
+												Oi, faça login
+												<br class="d-none d-md-block"> ou cadastre-se
+											</p>
+										</div>
+
+										<div class="logged-true d-block d-md-none">
+											<div class="user-info d-flex align-items-center">
+												<figure class="mb-0 me-3 p-0">
+													<img class="profile-picture" src="./assets/img/user.png"
+														alt="Foto de perfil">
+												</figure>
+												<div>
+													<p class="user-name m-0 p-0 poppinsBold">Ricardo Pereira dos Santos
+													</p>
+													<p class="user-doc cpf m-0 p-0">732.943.672-31</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -60,42 +83,49 @@
 			</div>
 		</section>
 
-		<section class="nav-main bg-light">
+		<section class="nav-main">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col">
-						<div class="container py-2">
+						<div class="container">
 							<div class="row">
 								<div class="col">
-									<nav class="navbar navbar-expand-lg">
-										<div class="container-fluid">
-											<p class="p-0 m-0 d-md-none">MOBILE MENU ITEM</p>
-											<button class="navbar-toggler border-0 collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse"
-												data-bs-target="#navbarText" aria-controls="navbarText"
-												aria-expanded="false" aria-label="Toggle navigation">
+									<nav class="navbar navbar-expand-lg py-0">
+										<div class="container-fluid px-md-0">
+											<p class="mobile-tit-menu py-3 m-0 d-md-none"></p>
+											<button
+												class="navbar-toggler border-0 collapsed d-flex d-lg-none flex-column justify-content-around"
+												type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+												aria-controls="navbarText" aria-expanded="false"
+												aria-label="Toggle navigation">
 												<span class="toggler-icon top-bar"></span>
 												<span class="toggler-icon middle-bar"></span>
 												<span class="toggler-icon bottom-bar"></span>
 											</button>
 											<div class="collapse navbar-collapse" id="navbarText">
 												<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-													<li class="nav-item">
-														<a class="nav-link active" aria-current="page"
+													<li class="nav-item py-0">
+														<a class="nav-link py-3 active" aria-current="page"
 															href="#">Solução</a>
 													</li>
-													<li class="nav-item">
-														<a class="nav-link" href="#">Planos e Preços</a>
+													<li class="nav-item py-0">
+														<a class="nav-link py-3" href="#">Planos e Preços</a>
 													</li>
-													<li class="nav-item">
-														<a class="nav-link" href="#">FAQ</a>
+													<li class="nav-item py-0">
+														<a class="nav-link py-3" href="#">FAQ</a>
 													</li>
-													<li class="nav-item">
-														<a class="nav-link" href="#">Fale Conosco</a>
+													<li class="nav-item py-0">
+														<a class="nav-link py-3" href="#">Fale Conosco</a>
 													</li>
 												</ul>
-												<span class="navbar-text">
-													<a class="nav-link" href="#" title="Verificar Assinaturas">Verificar Assinaturas</a>
+												<span class="navbar-text d-flex">
+													<a class="nav-link icon-signature" href="#" title="Verificar Assinaturas">Verificar assinaturas</a>
+													<a class="nav-link lang-opt ms-4 d-none d-md-block brazil" href="#" title="Alterar o idioma"><span class="d-none">Alterar o idioma</span></a>
 												</span>
+												<a class="logout my-5 d-flex align-items-center justify-content-center d-md-none" href="/Home/Logout" analytics-on="" analytics-event="header" analytics-category="logged-area" analytics-label="exit">
+													<span>Sair</span>
+													<i class="fa-regular fa-arrow-right-from-bracket"></i>
+												</a>
 											</div>
 										</div>
 									</nav>
@@ -110,13 +140,13 @@
 
 	<main>
 		<section>
-			<div class="container-fluid">
+			<div class="container-fluid bg-body-secondary">
 				<div class="row">
 					<div class="col">
 						<div class="container">
 							<div class="row">
 								<div class="col-12">
-									<h1>ALOHA, PRIMO!</h1>
+									<h1 class="teste">ALOHA, PRIMO!</h1>
 									<p>
 										Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt
 										ullam iure necessitatibus minima modi. Corrupti nihil consequuntur asperiores.
