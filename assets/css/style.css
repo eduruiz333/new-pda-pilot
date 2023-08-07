@@ -287,6 +287,9 @@ body {
 .new-pda .poppins-semi-bold {
   font-family: "poppinsSemiBold", sans-serif;
 }
+.new-pda .banner {
+  background-color: #7095A8;
+}
 
 /* Footer
 --------------------------------------------------- */
