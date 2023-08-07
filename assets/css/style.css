@@ -290,14 +290,130 @@ body {
 
 /* Footer
 --------------------------------------------------- */
+.new-pda footer {
+  background-color: #004165;
+}
+.new-pda footer * {
+  color: #FFFFFF;
+}
+.new-pda footer h1 {
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1.125rem;
+}
+.new-pda footer .text-description {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  font-size: 1px;
+}
+.new-pda footer .payment-methods .payment-list {
+  width: 80%;
+  -webkit-column-gap: 10%;
+     -moz-column-gap: 10%;
+          column-gap: 10%;
+  row-gap: 15px;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment {
+  width: 43px;
+  height: 30px;
+  background-image: url("../img/footer-cards.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.pix {
+  background-position: left center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.visa {
+  background-position: -66px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.master {
+  background-position: -131px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.amex {
+  background-position: -196px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.diners {
+  background-position: -262px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.elo {
+  background-position: -327px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.hipercard {
+  background-position: -392px center;
+}
+.new-pda footer .payment-methods .payment-list .icon-paiment.boleto {
+  background-position: right center;
+}
+.new-pda footer .social {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.new-pda footer .social .logocertisign-footer {
+  width: 145px;
+  height: 43px;
+  background: url("../img/footer-logotipo-certiSign.png") center center no-repeat;
+}
+.new-pda footer .social .social-list {
+  width: 80%;
+  -webkit-column-gap: 10%;
+     -moz-column-gap: 10%;
+          column-gap: 10%;
+}
+.new-pda footer .social .social-list .icon-social {
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/footer-social.png");
+  background-repeat: no-repeat;
+}
+.new-pda footer .social .social-list .icon-social a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+.new-pda footer .social .social-list .icon-social.linkedin {
+  background-position: left center;
+}
+.new-pda footer .social .social-list .icon-social.youtube {
+  background-position: -54px center;
+}
+.new-pda footer .social .social-list .icon-social.instagram {
+  background-position: -108px center;
+}
+.new-pda footer .social .social-list .icon-social.facebook {
+  background-position: -162px center;
+}
+.new-pda footer .social .social-list .icon-social.twitter {
+  background-position: -216px center;
+}
+.new-pda footer .social .social-list .icon-social.blog {
+  background-position: -270px center;
+}
+
 /* Responsive
 --------------------------------------------------- */
-@media (min-width: 640px) {
-  .new-pda header .login-bar .main-title {
-    font-size: 2.5rem;
-  }
+@media (min-width: 960px) {
   .new-pda.active-menu.item-01 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-02 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-03 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-04 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-05 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-06 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-07 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-08 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-09 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-10 .nav-main .navbar .nav-link.active {
     display: block;
     border-bottom: solid 3px #004165;
+  }
+  .new-pda header .login-bar .main-title {
+    font-size: 2.5rem;
+  }
+  .new-pda footer .payment-methods .payment-list {
+    width: 100%;
+    -webkit-column-gap: 3%;
+       -moz-column-gap: 3%;
+            column-gap: 3%;
+  }
+  .new-pda footer .social .social-list {
+    width: 100%;
+    -webkit-column-gap: 4%;
+       -moz-column-gap: 4%;
+            column-gap: 4%;
   }
 }

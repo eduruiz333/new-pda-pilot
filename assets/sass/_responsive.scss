@@ -8,14 +8,14 @@
 // s — Small Screens
 @media (min-width: 640px) {
     .new-pda {
-        header {
-            .login-bar {
-                .main-title {
-                    font-size: $px-40;
-                }
-            }
-        }
 
+
+    }
+}
+
+// m — Medium Screens
+@media (min-width: 960px) {
+    .new-pda {
         &.active-menu {
             &.item-01,
             &.item-02,
@@ -40,13 +40,31 @@
             }
         }
 
-    }
-}
+        header {
+            .login-bar {
+                .main-title {
+                    font-size: $px-40;
+                }
+            }
+        }
 
-// m — Medium Screens
-@media (min-width: 960px) {
-    .new-pda {
-    
+
+
+        footer {
+            .payment-methods {
+                .payment-list {
+                    width: 100%;
+                    column-gap: 3%;
+                }
+            }
+
+            .social {
+                .social-list {
+                    width: 100%;
+                    column-gap: 4%;
+                }
+            }
+        }
     }
 }
 

@@ -1,6 +1,122 @@
 .new-pda {
 
     footer {
-       
+        background-color: $blue-004165;
+        * {
+            color: $white-FFFFFF;
+        }
+
+        h1 {
+            font-family: $poppinsBold;
+            font-size: $px-18;
+        }
+
+        .text-description {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+            font-size: 1px;
+        }
+        
+        .payment-methods {
+            
+
+            .payment-list {
+                width: 80%;
+                column-gap: 10%;
+                row-gap: 15px;
+
+                .icon-paiment {
+                    width: 43px;
+                    height: 30px;
+                    background-image: url("../img/footer-cards.png");
+                    background-repeat: no-repeat;
+                    position: relative;
+                    
+                    &.pix {
+                        background-position: left center;
+
+                    }
+                    &.visa {
+                        background-position: -66px center;
+                    }
+                    &.master {
+                        background-position: -131px center;
+                    }
+                    &.amex {
+                        background-position: -196px center;
+                    }
+                    &.diners {
+                        background-position: -262px center;
+                    }
+                    &.elo {
+                        background-position: -327px center;
+                    }
+                    &.hipercard {
+                        background-position: -392px center;
+                    }
+                    &.boleto {
+                        background-position: right center;
+                    }
+                }
+            }
+        }
+
+        .infos {}
+
+        .social {
+            background-color: rgba($color: $black-000000, $alpha: 0.5);
+
+            .logocertisign-footer {
+                width: 145px;
+                height: 43px;
+                background: url("../img/footer-logotipo-certiSign.png") center center no-repeat;
+            }
+            
+            .social-list {
+                width: 80%;
+                column-gap: 10%;
+
+                .icon-social {
+                    width: 27px;
+                    height: 27px;
+                    background-image: url("../img/footer-social.png");
+                    background-repeat: no-repeat;
+    
+                    a {
+                        display: block;
+                        width: inherit;
+                        height: inherit;
+                        position: relative;
+                    }
+                    
+                    &.linkedin {
+                        background-position: left center;
+                    }
+                    &.youtube {
+                        background-position: -54px center;
+                    }
+                    &.instagram {
+                        background-position: -108px center;
+                    }
+                    &.facebook {
+                        background-position: -162px center;
+                    }
+                    &.twitter {
+                        background-position: -216px center;
+                    }
+                    &.blog {
+                        background-position: -270px center;
+                    }
+    
+                }
+            }
+
+        }
     }
 }
