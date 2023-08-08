@@ -175,8 +175,7 @@ body {
   border: none;
 }
 .new-pda header .nav-main .navbar .navbar-toggler {
-  width: 1.25rem;
-  height: 1.25rem;
+  height: 0.75rem;
   position: relative;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -188,8 +187,8 @@ body {
 .new-pda header .nav-main .navbar .navbar-toggler .toggler-icon {
   display: block;
   position: absolute;
-  height: 0.188rem;
-  width: 100%;
+  height: 0.125rem;
+  width: 90%;
   background: #004165;
   border-radius: 0.063rem;
   opacity: 1;
@@ -214,7 +213,7 @@ body {
           transform: rotate(-135deg);
 }
 .new-pda header .nav-main .navbar .navbar-toggler.collapsed .top-bar {
-  margin-top: -1.25rem;
+  margin-top: -0.75rem;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
@@ -223,7 +222,7 @@ body {
   filter: alpha(opacity=100);
 }
 .new-pda header .nav-main .navbar .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 1.25rem;
+  margin-top: 0.75rem;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
@@ -252,7 +251,7 @@ body {
   margin-right: 10px;
 }
 .new-pda header .nav-main .navbar .nav-link.lang-opt {
-  height: 28px;
+  height: 50px;
   width: 28px;
 }
 .new-pda header .nav-main .navbar .nav-link.lang-opt.brazil {
@@ -352,6 +351,42 @@ body {
 .new-pda footer .payment-methods .payment-list .icon-paiment.boleto {
   background-position: right center;
 }
+.new-pda footer .infos .accordion * {
+  background-color: #004165;
+}
+.new-pda footer .infos .accordion .accordion-item {
+  border-color: #7a9eb3;
+}
+.new-pda footer .infos .accordion .accordion-item h2 {
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1.125rem;
+}
+.new-pda footer .infos .accordion .accordion-item p, .new-pda footer .infos .accordion .accordion-item li {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 0.875rem;
+}
+.new-pda footer .infos .accordion .accordion-item .policies-list a {
+  text-decoration: none;
+}
+.new-pda footer .infos .accordion .accordion-item .policies-list a:hover {
+  text-decoration: underline;
+}
+.new-pda footer .infos .accordion .accordion-item .accordion-button,
+.new-pda footer .infos .accordion .accordion-item .accordion-body {
+  background-color: #004165;
+}
+.new-pda footer .infos .accordion .accordion-item .accordion-button {
+  color: #FFFFFF;
+}
+.new-pda footer .infos .accordion .accordion-item .accordion-button:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.new-pda footer .infos .accordion .accordion-item .accordion-button::after {
+  background-image: url("../img/accordion-icons.svg");
+  background-size: 70%;
+}
 .new-pda footer .social {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -400,12 +435,22 @@ body {
 /* Responsive
 --------------------------------------------------- */
 @media (min-width: 960px) {
+  .new-pda.active-menu.item-01 .nav-main .navbar .nav-link, .new-pda.active-menu.item-02 .nav-main .navbar .nav-link, .new-pda.active-menu.item-03 .nav-main .navbar .nav-link, .new-pda.active-menu.item-04 .nav-main .navbar .nav-link, .new-pda.active-menu.item-05 .nav-main .navbar .nav-link, .new-pda.active-menu.item-06 .nav-main .navbar .nav-link, .new-pda.active-menu.item-07 .nav-main .navbar .nav-link, .new-pda.active-menu.item-08 .nav-main .navbar .nav-link, .new-pda.active-menu.item-09 .nav-main .navbar .nav-link, .new-pda.active-menu.item-10 .nav-main .navbar .nav-link {
+    margin-right: 0.313rem;
+  }
   .new-pda.active-menu.item-01 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-02 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-03 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-04 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-05 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-06 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-07 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-08 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-09 .nav-main .navbar .nav-link.active, .new-pda.active-menu.item-10 .nav-main .navbar .nav-link.active {
     display: block;
     border-bottom: solid 3px #004165;
   }
+  .new-pda.active-menu.item-01 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-02 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-03 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-04 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-05 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-06 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-07 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-08 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-09 .nav-main .navbar .nav-link:hover, .new-pda.active-menu.item-10 .nav-main .navbar .nav-link:hover {
+    border-bottom: solid 3px #004165;
+  }
   .new-pda header .login-bar .main-title {
     font-size: 2.5rem;
+  }
+  .new-pda header .navbar,
+  .new-pda header .nav-link {
+    height: 3.125rem;
   }
   .new-pda footer .payment-methods .payment-list {
     width: 100%;
@@ -418,5 +463,33 @@ body {
     -webkit-column-gap: 4%;
        -moz-column-gap: 4%;
             column-gap: 4%;
+  }
+  .new-pda footer .infos .accordion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .new-pda footer .infos .accordion .accordion-item {
+    width: 100%;
+    border: none;
+    display: block;
+  }
+  .new-pda footer .infos .accordion .accordion-item .accordion-button {
+    cursor: default;
+  }
+  .new-pda footer .infos .accordion .accordion-item .accordion-button::after {
+    display: none;
+  }
+  .new-pda footer .infos .accordion .accordion-item .accordion-button:not(.collapsed) {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .new-pda footer .infos .accordion .accordion-item .accordion-collapse {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+  .new-pda footer .infos .accordion .accordion-item .accordion-body, .new-pda footer .infos .accordion .accordion-item.collapse,
+  .new-pda footer .infos .accordion .accordion-item .collapse:not(.show) {
+    display: block !important;
   }
 }

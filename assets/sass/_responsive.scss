@@ -1,22 +1,18 @@
 // xs — Extra Small Screens
 @media (min-width: 320px) {
-    .new-pda {
-    
-    }
+    .new-pda {}
 }
 
 // s — Small Screens
 @media (min-width: 640px) {
-    .new-pda {
-
-
-    }
+    .new-pda {}
 }
 
 // m — Medium Screens
 @media (min-width: 960px) {
     .new-pda {
         &.active-menu {
+
             &.item-01,
             &.item-02,
             &.item-03,
@@ -30,8 +26,14 @@
                 .nav-main {
                     .navbar {
                         .nav-link {
+                            margin-right: $px-5;
+
                             &.active {
                                 display: block;
+                                border-bottom: solid 3px $blue-004165;
+                            }
+
+                            &:hover {
                                 border-bottom: solid 3px $blue-004165;
                             }
                         }
@@ -46,12 +48,18 @@
                     font-size: $px-40;
                 }
             }
+
+            .navbar,
+            .nav-link {
+                height: $px-50;
+            }
         }
 
 
 
         footer {
             .payment-methods {
+
                 .payment-list {
                     width: 100%;
                     column-gap: 3%;
@@ -64,20 +72,50 @@
                     column-gap: 4%;
                 }
             }
+
+            .infos {
+                .accordion {
+                    display: flex;
+
+                    .accordion-item {
+                        width: 100%;
+                        border: none;
+                        display: block;
+
+                        .accordion-button {
+                            cursor: default;
+
+                            &::after {
+                                display: none;
+                            }
+
+                            &:not(.collapsed) {
+                                box-shadow: none !important;
+                            }
+                        }
+
+                        .accordion-collapse {
+                            transition: none !important;
+                        }
+
+                        .accordion-body,
+                        &.collapse,
+                        .collapse:not(.show) {
+                            display: block !important;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
 // l — Large Screens
 @media (min-width: 1200px) {
-    .new-pda {
-    
-    }
+    .new-pda {}
 }
 
 // xl — Extra Large Screens
 @media (min-width: 1600px) {
-    .new-pda {
-    
-    }
+    .new-pda {}
 }

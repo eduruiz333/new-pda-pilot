@@ -113,8 +113,8 @@
                 }
         
                 .navbar-toggler {
-                    width: $px-20;
-                    height: $px-20;
+                    // width: $px-10;
+                    height: $px-12;
                     position: relative;
                     transition: .5s ease-in-out;
         
@@ -126,8 +126,8 @@
                     .toggler-icon {
                         display: block;
                         position: absolute;
-                        height:  $px-3;
-                        width: 100%;
+                        height:  $px-2;
+                        width: 90%;
                         background: $blue-004165;
                         border-radius: $px-1;
                         opacity: 1;
@@ -151,7 +151,7 @@
         
                     &.collapsed {
                         .top-bar {
-                            margin-top: -$px-20;
+                            margin-top: -$px-12;
                             transform: rotate(0deg);
                         }
                         .middle-bar {
@@ -159,7 +159,7 @@
                             filter: alpha(opacity=100);
                         }
                         .bottom-bar {
-                            margin-top: $px-20;
+                            margin-top: $px-12;
                             transform: rotate(0deg);
                         }
                     }
@@ -189,7 +189,7 @@
                     }
 
                     &.lang-opt {
-                        height: 28px;
+                        height: 50px;
                         width: 28px;
 
                         &.brazil {
