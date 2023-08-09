@@ -286,8 +286,65 @@ body {
 .new-pda .poppins-semi-bold {
   font-family: "poppinsSemiBold", sans-serif;
 }
+.new-pda .btn {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 1.5rem;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.new-pda .btn.btn-primary {
+  background-color: #FFA100;
+  color: #004165;
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1rem;
+}
+.new-pda .btn.btn-primary:hover {
+  background-color: #E38E00;
+}
+.new-pda .arrow-right {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.new-pda .arrow-right .fa-arrow-right {
+  padding-left: 0.625rem;
+}
+.new-pda .arrow-right:hover {
+  color: #002B4D;
+}
 .new-pda .banner {
-  background-color: #7095A8;
+  color: #FFFFFF;
+  background: #7095A8 url("../img/banner-02.png") center bottom no-repeat;
+}
+.new-pda .banner .bg-gradient-dark {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(64, 113, 139, 0)), color-stop(99%, #182A34));
+  background: linear-gradient(180deg, rgba(64, 113, 139, 0) 80%, #182A34 99%);
+}
+.new-pda .banner .mob-height {
+  height: 567px;
+}
+.new-pda .banner .main-title {
+  font-family: "futuraPTCondExtraBold", sans-serif;
+  font-size: calc(3.25rem);
+  line-height: calc(2.813rem);
+}
+.new-pda .banner .regular-text {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+.new-pda .banner .small {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 0.875rem;
 }
 
 /* Footer
@@ -355,7 +412,7 @@ body {
   background-color: #004165;
 }
 .new-pda footer .infos .accordion .accordion-item {
-  border-color: #7a9eb3;
+  border-color: #7A9EB3;
 }
 .new-pda footer .infos .accordion .accordion-item h2 {
   font-family: "poppinsBold", sans-serif;
@@ -434,7 +491,7 @@ body {
 
 /* Responsive
 --------------------------------------------------- */
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .new-pda.active-menu.item-01 .nav-main .navbar .nav-link, .new-pda.active-menu.item-02 .nav-main .navbar .nav-link, .new-pda.active-menu.item-03 .nav-main .navbar .nav-link, .new-pda.active-menu.item-04 .nav-main .navbar .nav-link, .new-pda.active-menu.item-05 .nav-main .navbar .nav-link, .new-pda.active-menu.item-06 .nav-main .navbar .nav-link, .new-pda.active-menu.item-07 .nav-main .navbar .nav-link, .new-pda.active-menu.item-08 .nav-main .navbar .nav-link, .new-pda.active-menu.item-09 .nav-main .navbar .nav-link, .new-pda.active-menu.item-10 .nav-main .navbar .nav-link {
     margin-right: 0.313rem;
   }
@@ -451,6 +508,28 @@ body {
   .new-pda header .navbar,
   .new-pda header .nav-link {
     height: 3.125rem;
+  }
+  .new-pda main .banner {
+    color: #FFFFFF;
+    background: #7095A8;
+  }
+  .new-pda main .banner .bg-gradient-dark {
+    background: none;
+  }
+  .new-pda main .banner .mob-height {
+    height: 630px;
+  }
+  .new-pda main .banner .main-title {
+    font-family: "futuraPTCondExtraBold", sans-serif;
+    font-size: calc(4rem);
+    line-height: calc(3.438rem);
+  }
+  .new-pda main .banner .regular-text {
+    line-height: 1.625rem;
+  }
+  .new-pda main .banner .img-banner {
+    display: block;
+    margin-left: 15%;
   }
   .new-pda footer .payment-methods .payment-list {
     width: 100%;

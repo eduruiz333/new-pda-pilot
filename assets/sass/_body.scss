@@ -10,8 +10,68 @@
         font-family: $poppinsSemiBold;
     }
 
+    .btn {
+        border: none;
+        box-shadow: none;
+        border-radius: $px-24;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.btn-primary {
+            background-color: $yellow-FFA100;
+            color: $blue-004165;
+            font-family: $poppinsBold;
+            font-size: $px-16;
+
+            &:hover {
+                background-color: $yellow-E38E00;
+            }
+        }
+    }
+
+    .arrow-right {
+        color: $white-FFFFFF;
+        text-decoration: none;
+
+        .fa-arrow-right {
+            padding-left: $px-10;
+        }
+
+        &:hover {
+            color: $blue-002B4D;
+        }
+    }
+
     .banner {
-        background-color: #7095A8;
+        color: $white-FFFFFF;
+        background: $blue-7095A8 url("../img/banner-02.png") center bottom no-repeat;
+
+        .bg-gradient-dark {
+            background: linear-gradient(180deg, rgba(64, 113, 139, 0) 80%, #182A34 99%);
+        }
+
+        .mob-height {
+            height: 567px;
+        }
+
+        .main-title {
+            font-family: $futuraPTCondExtraBold;
+            font-size: calc(#{$px-50 + $px-2});
+            line-height: calc(#{$px-40 + $px-5});
+        }
+
+        .regular-text {
+            font-family: $poppinsRegular;
+            font-size: $px-18;
+            line-height: $px-22;
+        }
+
+        .small {
+            font-family: $poppinsRegular;
+            font-size: $px-14;
+        }
     }
 
 }

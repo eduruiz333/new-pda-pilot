@@ -1,15 +1,15 @@
 // xs — Extra Small Screens
-@media (min-width: 320px) {
+@media (min-width: 576px) {
     .new-pda {}
 }
 
 // s — Small Screens
-@media (min-width: 640px) {
+@media (min-width: 768px) {
     .new-pda {}
 }
 
 // m — Medium Screens
-@media (min-width: 960px) {
+@media (min-width: 992px) {
     .new-pda {
         &.active-menu {
 
@@ -55,6 +55,35 @@
             }
         }
 
+        main {
+            .banner {
+                color: $white-FFFFFF;
+                background: $blue-7095A8;
+
+                .bg-gradient-dark {
+                    background: none;
+                }
+
+                .mob-height {
+                    height: 630px;
+                }
+
+                .main-title {
+                    font-family: $futuraPTCondExtraBold;
+                    font-size: calc(#{$px-50 + $px-14});
+                    line-height: calc(#{$px-50 + $px-5});
+                }
+
+                .regular-text {
+                    line-height: $px-26;
+                }
+
+                .img-banner {
+                    display: block;
+                    margin-left: 15%;
+                }
+            }
+        }
 
 
         footer {
@@ -116,6 +145,11 @@
 }
 
 // xl — Extra Large Screens
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
+    .new-pda {}
+}
+
+// xxl — Extra Large Screens
+@media (min-width: 1400px) {
     .new-pda {}
 }
