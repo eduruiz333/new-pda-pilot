@@ -278,7 +278,7 @@ body {
 --------------------------------------------------- */
 .new-pda {
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 .new-pda .poppins-bold {
   font-family: "poppinsBold", sans-serif;
@@ -312,8 +312,12 @@ body {
   background-color: #E38E00;
 }
 .new-pda .arrow-right {
-  color: #FFFFFF;
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1rem;
+  color: #004165;
   text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .new-pda .arrow-right .fa-arrow-right {
   padding-left: 0.625rem;
@@ -324,6 +328,12 @@ body {
 .new-pda .banner {
   color: #FFFFFF;
   background: #7095A8 url("../img/banner-02.png") center bottom no-repeat;
+}
+.new-pda .banner .arrow-right {
+  color: #FFFFFF;
+}
+.new-pda .banner .arrow-right:hover {
+  color: #002B4D;
 }
 .new-pda .banner .bg-gradient-dark {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(64, 113, 139, 0)), color-stop(99%, #182A34));
@@ -345,6 +355,50 @@ body {
 .new-pda .banner .small {
   font-family: "poppinsRegular", sans-serif;
   font-size: 0.875rem;
+}
+.new-pda .sec-01 h1 {
+  font-family: "futuraPTCondExtraBold", sans-serif;
+  font-size: calc(3.25rem);
+  line-height: calc(2.625rem);
+  color: #004165;
+}
+.new-pda .sec-01 h2 {
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #333333;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  padding-top: 3.125rem;
+}
+.new-pda .sec-01 h2.icon-signature-pen {
+  background-image: url("../img/icon-signature-pen.png");
+}
+.new-pda .sec-01 h2.icon-user-plus {
+  background-image: url("../img/icon-user-plus.png");
+}
+.new-pda .sec-01 h2.icon-cloud {
+  background-image: url("../img/icon-cloud.png");
+}
+.new-pda .sec-01 h2.icon-shield {
+  background-image: url("../img/icon-shield.png");
+}
+.new-pda .sec-01 h2.icon-clock {
+  background-image: url("../img/icon-clock.png");
+}
+.new-pda .sec-01 h2.icon-plus {
+  background-image: url("../img/icon-plus.png");
+}
+.new-pda .sec-01 p {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #333333;
+}
+.new-pda .sec-01 p.small {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 0.875rem;
+  color: #004165;
 }
 
 /* Footer
@@ -530,6 +584,24 @@ body {
   .new-pda main .banner .img-banner {
     display: block;
     margin-left: 15%;
+  }
+  .new-pda main .sec-01 .resources .tit {
+    width: 30%;
+    float: left;
+  }
+  .new-pda main .sec-01 .resources .resources {
+    width: 70%;
+    float: right;
+    padding-left: 60px;
+  }
+  .new-pda main .sec-01 .resources .resources .resources-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  .new-pda main .sec-01 .resources .free-try {
+    width: 40%;
   }
   .new-pda footer .payment-methods .payment-list {
     width: 100%;

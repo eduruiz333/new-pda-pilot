@@ -1,6 +1,6 @@
 .new-pda {
     overflow-x: hidden;
-    background-color: $white-FFFFFF;
+    background-color: $grey-F2F2F2;
 
     .poppins-bold {
         font-family: $poppinsBold;
@@ -32,8 +32,11 @@
     }
 
     .arrow-right {
-        color: $white-FFFFFF;
+        font-family: $poppinsBold;
+        font-size: $px-16;
+        color: $blue-004165;
         text-decoration: none;
+        transition: all 0.3s ease;
 
         .fa-arrow-right {
             padding-left: $px-10;
@@ -47,6 +50,14 @@
     .banner {
         color: $white-FFFFFF;
         background: $blue-7095A8 url("../img/banner-02.png") center bottom no-repeat;
+
+        .arrow-right {
+            color: $white-FFFFFF;
+
+            &:hover {
+                color: $blue-002B4D;
+            }
+        }
 
         .bg-gradient-dark {
             background: linear-gradient(180deg, rgba(64, 113, 139, 0) 80%, #182A34 99%);
@@ -72,6 +83,64 @@
             font-family: $poppinsRegular;
             font-size: $px-14;
         }
+    }
+
+
+    .sec-01 {
+        h1 {
+            font-family: $futuraPTCondExtraBold;
+            font-size: calc(#{$px-50 + $px-2});
+            line-height: calc(#{$px-40 + $px-2});
+            color: $blue-004165;
+        }
+
+        h2 {
+            font-family: $poppinsBold;
+            font-size: $px-18;
+            line-height: $px-24;
+            color: $black-333333;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            padding-top: $px-50;
+
+            &.icon-signature-pen {
+                background-image: url("../img/icon-signature-pen.png");
+            }
+
+            &.icon-user-plus {
+                background-image: url("../img/icon-user-plus.png");
+            }
+
+            &.icon-cloud {
+                background-image: url("../img/icon-cloud.png");
+            }
+
+            &.icon-shield {
+                background-image: url("../img/icon-shield.png");
+            }
+
+            &.icon-clock {
+                background-image: url("../img/icon-clock.png");
+            }
+
+            &.icon-plus {
+                background-image: url("../img/icon-plus.png");
+            }
+        }
+
+        p {
+            font-family: $poppinsRegular;
+            font-size: $px-16;
+            line-height: $px-22;
+            color: $black-333333;
+
+            &.small {
+                    font-family: $poppinsRegular;
+                    font-size: $px-14;
+                    color: $blue-004165;
+                }
+        }
+
     }
 
 }

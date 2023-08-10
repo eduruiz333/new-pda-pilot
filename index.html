@@ -1,395 +1,452 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="Certisign">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link href="./assets/css/bootstrap-5.3.0.min.css" rel="stylesheet">
-    <link href="./assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="./assets/css/style.min.css" rel="stylesheet">
-    <title>Portal de Assinaturas</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="Certisign">
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link href="./assets/css/bootstrap-5.3.0.min.css" rel="stylesheet">
+        <link href="./assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="./assets/css/style.min.css" rel="stylesheet">
+        <title>Portal de Assinaturas</title>
+    </head>
 
-<body class="new-pda active-menu item-01">
-    <header>
-        <section class="notice-bar d-none d-lg-block">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container py-2">
-                            <div class="row">
-                                <div class="col d-flex justify-content-between align-items-center">
-                                    <p class="m-0 p-0">
-                                        certificado digital é <strong>CertiSign</strong>
-                                    </p>
-                                    <p class="m-0 p-0">
-                                        até <strong>25% OFF!</strong> Parcele em até <strong>12X</strong>
-                                    </p>
-                                    <p class="m-0 p-0 border-bottom">
-                                        <a href="https://loja.certisign.com.br/" title="comprar"
-                                            target="_blank">comprar</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="login-bar d-flex align-items-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container py-2">
-                            <div class="row">
-                                <div class="col d-flex align-items-center justify-content-between">
-                                    <h1 class="main-title d-lg-block m-0 p-0">Portal de Assinaturas</h1>
-                                    <div class="login-area d-none d-lg-block">
-                                        <div class="logged-false d-none d-lg-flex align-items-center">
-                                            <p class="cta-login m-0 p-0">
-                                                Oi, faça login
-                                                <br class="d-none d-lg-block"> ou cadastre-se
-                                            </p>
-                                        </div>
-                                        <div class="logged-true d-block d-lg-none">
-                                            <div class="user-info d-flex align-items-center">
-                                                <figure class="mb-0 me-3 p-0">
-                                                    <img class="profile-picture" src="./assets/img/user.png"
-                                                        alt="Foto de perfil">
-                                                </figure>
-                                                <div>
-                                                    <p class="user-name m-0 p-0 poppinsBold">Ricardo Pereira dos Santos
-                                                    </p>
-                                                    <p class="user-doc cpf m-0 p-0">732.943.672-31</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="nav-main">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <nav class="navbar navbar-expand-lg py-0">
-                                        <div class="container-fluid px-0">
-                                            <p class="mobile-tit-menu py-2 m-0 d-lg-none"></p>
-                                            <button
-                                                class="navbar-toggler border-0 collapsed d-flex d-lg-none flex-column justify-content-around"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                                                aria-controls="navbarText" aria-expanded="false"
-                                                aria-label="Toggle navigation">
-                                                <span class="toggler-icon top-bar"></span>
-                                                <span class="toggler-icon middle-bar"></span>
-                                                <span class="toggler-icon bottom-bar"></span>
-                                            </button>
-                                            <div class="collapse navbar-collapse" id="navbarText">
-                                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                                    <li class="nav-item py-0">
-                                                        <a class="nav-link py-3 active" aria-current="page"
-                                                            href="#">Solução</a>
-                                                    </li>
-                                                    <li class="nav-item py-0">
-                                                        <a class="nav-link py-3" href="#">Planos e Preços</a>
-                                                    </li>
-                                                    <li class="nav-item py-0">
-                                                        <a class="nav-link py-3" href="#">FAQ</a>
-                                                    </li>
-                                                    <li class="nav-item py-0">
-                                                        <a class="nav-link py-3" href="#">Fale Conosco</a>
-                                                    </li>
-                                                </ul>
-                                                <span class="navbar-text d-flex p-0">
-                                                    <a class="nav-link icon-signature" href="#"
-                                                        title="Verificar Assinaturas">
-                                                        Verificar assinaturas
-                                                    </a>
-                                                    <a class="nav-link lang-opt ms-4 d-none d-lg-block brazil" href="#"
-                                                        title="Alterar o idioma">
-                                                        <span class="d-none">Alterar o idioma</span>
-                                                    </a>
-                                                </span>
-                                                <a class="logout my-5 d-flex align-items-center justify-content-center d-lg-none"
-                                                    href="/Home/Logout" analytics-on="" analytics-event="header"
-                                                    analytics-category="logged-area" analytics-label="exit">
-                                                    <span>Sair</span>
-                                                    <i class="fa-regular fa-arrow-right-from-bracket"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </header>
-
-    <main>
-        <section class="banner mb-5">
-            <div class="container-fluid bg-gradient-dark">
-                <div class="row">
-                    <div class="col">
-                        <div class="container px-lg-5">
-                            <div class="row px-lg-5 mob-height py-4 py-lg-0">
-                                <div class="col-12 col-lg-4 d-flex flex-column justify-content-between align-items-center d-lg-block">
-                                    <div class=" mb-lg-5">
-                                        <h1 class="main-title mt-lg-5 mb-lg-3">
-                                            Assinar documentos on-line é fácil.
-                                        </h1>
-                                        <p class="regular-text">
-                                            Agilize seu dia a dia com o Portal de Assinaturas da CertiSign.
+    <body class="new-pda active-menu item-01">
+        <header>
+            <section class="notice-bar d-none d-lg-block">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container py-2">
+                                <div class="row">
+                                    <div class="col d-flex justify-content-between align-items-center">
+                                        <p class="m-0 p-0">
+                                            certificado digital é <strong>CertiSign</strong>
+                                        </p>
+                                        <p class="m-0 p-0">
+                                            até <strong>25% OFF!</strong> Parcele em até <strong>12X</strong>
+                                        </p>
+                                        <p class="m-0 p-0 border-bottom">
+                                            <a href="https://loja.certisign.com.br/" title="comprar"
+                                                target="_blank">comprar</a>
                                         </p>
                                     </div>
-                                    <div class="pb-3">
-                                        <p class="text-center">
-                                            <a class="arrow-right" href="#">Veja todos os recursos<i class="fa-solid fa-arrow-right"></i></a>
-                                        </p>
-                                        <p><a href="#" class="btn btn-primary">Experimente grátis</a></p>
-                                        <p class="small mb-0 text-center">Não precisa cadastrar o cartão de crédito.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="login-bar d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container py-2">
+                                <div class="row">
+                                    <div class="col d-flex align-items-center justify-content-between">
+                                        <h1 class="main-title d-lg-block m-0 p-0">Portal de Assinaturas</h1>
+                                        <div class="login-area d-none d-lg-block">
+                                            <div class="logged-false d-none d-lg-flex align-items-center">
+                                                <p class="cta-login m-0 p-0">
+                                                    Oi, faça login
+                                                    <br class="d-none d-lg-block"> ou cadastre-se
+                                                </p>
+                                            </div>
+                                            <div class="logged-true d-block d-lg-none">
+                                                <div class="user-info d-flex align-items-center">
+                                                    <figure class="mb-0 me-3 p-0">
+                                                        <img class="profile-picture" src="./assets/img/user.png"
+                                                            alt="Foto de perfil">
+                                                    </figure>
+                                                    <div>
+                                                        <p class="user-name m-0 p-0 poppinsBold">Ricardo Pereira dos
+                                                            Santos
+                                                        </p>
+                                                        <p class="user-doc cpf m-0 p-0">732.943.672-31</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    
-                                </div>
-
-                                <div class="d-none d-lg-block col-lg-8">
-                                    <picture class="img-banner">
-                                        <img src="./assets/img/banner-03.png" alt="Banner Portal de Assinaturas">
-                                    </picture>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <h1>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatum, aspernatur cum omnis facere earum placeat at provident eum quas, exercitationem quidem. Dolore maxime quasi distinctio consequuntur aspernatur. Possimus, impedit.
-                                    </h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
 
-    <footer>
-        <section class="payment-methods py-4 pb-lg-0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container px-lg-5">
-                            <div class="row px-lg-5">
-                                <div class="col-12 col-lg-4">
-                                    <h1 class="text-center text-lg-start mb-3">Formas de pagamento:</h1>
-                                </div>
-                                <div class="col-12 col-lg-8 d-flex align-items-center">
-                                    <ul
-                                        class="payment-list list-unstyled my-0 mx-auto p-0 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end">
-                                        <li class="icon-paiment pix"><span class="text-description">Pix</span></li>
-                                        <li class="icon-paiment visa"><span class="text-description">Visa</span></li>
-                                        <li class="icon-paiment master"><span class="text-description">Master</span>
-                                        </li>
-                                        <li class="icon-paiment amex"><span class="text-description">Amex</span></li>
-                                        <li class="icon-paiment diners"><span class="text-description">Diners</span>
-                                        </li>
-                                        <li class="icon-paiment elo"><span class="text-description">Elo</span></li>
-                                        <li class="icon-paiment hipercard"><span
-                                                class="text-description">Hipercard</span></li>
-                                        <li class="icon-paiment boleto"><span class="text-description">Boleto</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <hr class="d-none d-lg-block mt-4">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="infos py-4 pt-lg-0">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container px-lg-5">
-                            <div class="row px-lg-5">
-                                <div class="col px-lg-0">
-                                    
-                                    <div class="accordion accordion-flush" id="infoSection">
-                                        <div class="accordion-item">
-                                            <h1 class="accordion-header" id="section-Title-One">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                                    aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Televendas:
+            <section class="nav-main">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <nav class="navbar navbar-expand-lg py-0">
+                                            <div class="container-fluid px-0">
+                                                <p class="mobile-tit-menu py-2 m-0 d-lg-none"></p>
+                                                <button
+                                                    class="navbar-toggler border-0 collapsed d-flex d-lg-none flex-column justify-content-around"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                                                    aria-controls="navbarText" aria-expanded="false"
+                                                    aria-label="Toggle navigation">
+                                                    <span class="toggler-icon top-bar"></span>
+                                                    <span class="toggler-icon middle-bar"></span>
+                                                    <span class="toggler-icon bottom-bar"></span>
                                                 </button>
-                                            </h1>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                                aria-labelledby="section-Title-One" data-bs-parent="#infoSection">
-                                                <div class="accordion-body">
-                                                    <h2 class="mb-0">4020-2430*</h2>
-                                                    <p class="mb-3">(capitais e regiões metropolitanas)</p>
-                                                    <h2 class="mb-0">0800-025-1501*</h2>
-                                                    <p class="mb-3">(outros locais - apenas telefone fixo)</p>
-                                                    <p class="mb-3">*Atendimento por telefone, das 9h às 18h (em dias
-                                                        úteis. Exceto
-                                                        feriados nacionais).</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h1 class="accordion-header" id="section-Title-Two">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Fale com o suporte:
-                                                </button>
-                                            </h1>
-                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="section-Title-Two" data-bs-parent="#infoSection">
-                                                <div class="accordion-body">
-                                                    <h2 class="mb-0">4020-9735*</h2>
-                                                    <p class="mb-3">(capitais e regiões metropolitanas)</p>
-                                                    <h2 class="mb-0">0800-025-1518*</h2>
-                                                    <p class="mb-3">(outros locais - apenas telefone fixo)</p>
-                                                    <p class="mb-3">*Atendimento por telefone, das 9h às 18h (em dias
-                                                        úteis. Exceto
-                                                        feriados nacionais).</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h1 class="accordion-header" id="section-Title-Three">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                                    aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Políticas:
-                                                </button>
-                                            </h1>
-                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                                aria-labelledby="section-Title-Three" data-bs-parent="#infoSection">
-                                                <div class="accordion-body">
-                                                    <ul class="policies-list list-unstyled">
-                                                        <li class="mb-3">
-                                                            <a
-                                                                href="/Documentos/Termos/codigo-de-etica_e-conduta-certisign-ptBR.pdf">Código
-                                                                de ética</a>
+                                                <div class="collapse navbar-collapse" id="navbarText">
+                                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                        <li class="nav-item py-0">
+                                                            <a class="nav-link py-3 active" aria-current="page"
+                                                                href="#">Solução</a>
                                                         </li>
-                                                        <li class="mb-3">
-                                                            <a href="https://www.certisign.com.br/certisign/canal-etica-certisign"
-                                                                target="_blank">Canal de ética</a>
+                                                        <li class="nav-item py-0">
+                                                            <a class="nav-link py-3" href="#">Planos e Preços</a>
                                                         </li>
-                                                        <li class="mb-3">
-                                                            <a href="https://www.certisign.com.br/static/documentos/integridade/politica-de-integridade.pdf"
-                                                                target="_blank">Política de Integridade</a>
+                                                        <li class="nav-item py-0">
+                                                            <a class="nav-link py-3" href="#">FAQ</a>
                                                         </li>
-                                                        <li class="mb-3">
-                                                            <a href="/Info/PoliticaPrivacidade">Política de
-                                                                privacidade</a>
-                                                        </li>
-                                                        <li class="mb-3">
-                                                            <a href="javascript:void(0)"
-                                                                onclick="window.sendAdoptCommand('open')">Política de
-                                                                cookies</a>
-                                                        </li>
-                                                        <li class="mb-3">
-                                                            <a href="/Info/TermosDeUso">Termo de uso</a>
+                                                        <li class="nav-item py-0">
+                                                            <a class="nav-link py-3" href="#">Fale Conosco</a>
                                                         </li>
                                                     </ul>
+                                                    <span class="navbar-text d-flex p-0">
+                                                        <a class="nav-link icon-signature" href="#"
+                                                            title="Verificar Assinaturas">
+                                                            Verificar assinaturas
+                                                        </a>
+                                                        <a class="nav-link lang-opt ms-4 d-none d-lg-block brazil"
+                                                            href="#" title="Alterar o idioma">
+                                                            <span class="d-none">Alterar o idioma</span>
+                                                        </a>
+                                                    </span>
+                                                    <a class="logout my-5 d-flex align-items-center justify-content-center d-lg-none"
+                                                        href="/Home/Logout" analytics-on="" analytics-event="header"
+                                                        analytics-category="logged-area" analytics-label="exit">
+                                                        <span>Sair</span>
+                                                        <i class="fa-regular fa-arrow-right-from-bracket"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="banner mb-5">
+                <div class="container-fluid bg-gradient-dark">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container px-lg-5">
+                                <div class="row px-lg-5 mob-height py-4 py-lg-0">
+                                    <div
+                                        class="col-12 col-lg-4 d-flex flex-column justify-content-between align-items-center d-lg-block">
+                                        <div class="mb-lg-5">
+                                            <h1 class="main-title mt-lg-5 mb-lg-3">
+                                                Assinar documentos on-line é fácil.
+                                            </h1>
+                                            <p class="regular-text">
+                                                Agilize seu dia a dia com o Portal de Assinaturas da CertiSign.
+                                            </p>
+                                        </div>
+                                        <div class="free-try pb-3">
+                                            <p class="text-center">
+                                                <a class="arrow-right" href="#">Veja todos os recursos<i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                            </p>
+                                            <p><a href="#" class="btn btn-primary">Experimente grátis</a></p>
+                                            <p class="small mb-0 text-center">Não precisa cadastrar o cartão de crédito.
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-none d-lg-block col-lg-8">
+                                        <picture class="img-banner">
+                                            <img src="./assets/img/banner-03.png" alt="Banner Portal de Assinaturas">
+                                        </picture>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec-01 pb-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container px-lg-5">
+
+                                <div class="row px-lg-5">
+                                    <div class="col resources">
+
+                                        <h1 class="tit mb-4 mb-lg-5">
+                                            Recursos para facilitar sua rotina!
+                                        </h1>
+
+                                        <div class="resources mb-5">
+                                            <div class="resources-list">
+                                                <div>
+                                                    <h2 class="icon-signature-pen mb-2">Clicou, assinou</h2>
+                                                    <p class="mb-4">Assine um ou centenas de documentos
+                                                        <br class="d-none d-lg-block"> de uma só vez com
+                                                        <br class="d-none d-lg-block"> apenas um clique.</p>
+
+                                                    <h2 class="icon-user-plus mb-2">Crie fluxos</h2>
+                                                    <p class="mb-4">Você define os signatários, a ordem das assinaturas e ajusta o
+                                                        fluxo se precisar.</p>
+
+                                                    <h2 class="icon-cloud mb-2">Na nuvem</h2>
+                                                    <p class="mb-4">Os documentos ficam seguros e podem ser acessados apenas pelas
+                                                        pessoas autorizadas.</p>
+                                                </div>
+                                                <div>
+                                                    <h2 class="icon-shield mb-2">Do seu jeito</h2>
+                                                    <p class="mb-4">Com ou sem certificado digital, garantimos a validade jurídica da
+                                                        assinatura.</p>
+
+                                                    <h2 class="icon-clock mb-2">Tempo real</h2>
+                                                    <p class="mb-4">Cada interação no fluxo é atualizada no mesmo instante e você é
+                                                        notificado.</p>
+
+                                                    <h2 class="icon-plus mb-2">Serviços adicionais</h2>
+                                                    <p class="mb-4">Se quiser, você pode adicionar mais camadas de segurança, como
+                                                        SMS e biometria.</p>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div class="free-try">
+                                            <p class="text-center">
+                                                <a class="arrow-right" href="#">Veja todos os recursos<i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                            </p>
+                                            <p><a href="#" class="btn btn-primary">Experimente grátis</a></p>
+                                            <p class="small mb-0 text-center">Não precisa cadastrar o cartão de
+                                                crédito.
+                                            </p>
+                                        </div>
+
                                     </div>
-                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="payment-methods py-4 pb-lg-0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container px-lg-5">
+                                <div class="row px-lg-5">
+                                    <div class="col-12 col-lg-4">
+                                        <h1 class="text-center text-lg-start mb-3">Formas de pagamento:</h1>
+                                    </div>
+                                    <div class="col-12 col-lg-8 d-flex align-items-center">
+                                        <ul
+                                            class="payment-list list-unstyled my-0 mx-auto p-0 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end">
+                                            <li class="icon-paiment pix"><span class="text-description">Pix</span></li>
+                                            <li class="icon-paiment visa"><span class="text-description">Visa</span>
+                                            </li>
+                                            <li class="icon-paiment master"><span class="text-description">Master</span>
+                                            </li>
+                                            <li class="icon-paiment amex"><span class="text-description">Amex</span>
+                                            </li>
+                                            <li class="icon-paiment diners"><span class="text-description">Diners</span>
+                                            </li>
+                                            <li class="icon-paiment elo"><span class="text-description">Elo</span></li>
+                                            <li class="icon-paiment hipercard"><span
+                                                    class="text-description">Hipercard</span></li>
+                                            <li class="icon-paiment boleto"><span class="text-description">Boleto</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <hr class="d-none d-lg-block mt-4">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="social py-4">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="container px-lg-5">
-                            <div class="row px-lg-5">
-                                <div class="col-12 col-lg-4">
-                                    <h1 class="logocertisign-footer mb-4 mb-lg-0"><span
-                                            class="text-description">Certisign</span></h1>
-                                </div>
-                                <div class="col-12 col-lg-8 d-flex align-items-center">
-                                    <ul
-                                        class="social-list list-unstyled my-0 mx-auto p-0 d-flex align-items-center justify-content-around justify-content-lg-end">
-                                        <li class="icon-social linkedin">
-                                            <a href="https://www.linkedin.com/company/certisign" title="LinkedIn"
-                                                target="_blank">
-                                                <span class="text-description">LinkedIn</span>
-                                            </a>
-                                        </li>
-                                        <li class="icon-social youtube">
-                                            <a href="https://www.youtube.com/c/certisign" title="Youtube"
-                                                target="_blank">
-                                                <span class="text-description">Youtube</span>
-                                            </a>
-                                        </li>
-                                        <li class="icon-social instagram">
-                                            <a href="https://www.instagram.com/certisign" title="Instagram"
-                                                target="_blank"><span class="text-description">Instagram</span></a>
-                                        </li>
-                                        <li class="icon-social facebook">
-                                            <a href="https://www.facebook.com/CertiSign" title="Facebook"
-                                                target="_blank"><span class="text-description">Facebook</span></a>
-                                        </li>
-                                        <li class="icon-social twitter">
-                                            <a href="https://twitter.com/Certisign" title="Twitter"
-                                                target="_blank"><span class="text-description">Twitter</span></a>
-                                        </li>
-                                        <li class="icon-social blog">
-                                            <a href="https://blog.certisign.com.br" title="Blog Certisign"
-                                                target="_blank"><span class="text-description">Blog Certisign</span></a>
-                                        </li>
-                                    </ul>
+            <section class="infos py-4 pt-lg-0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container px-lg-5">
+                                <div class="row px-lg-5">
+                                    <div class="col px-lg-0">
+
+                                        <div class="accordion accordion-flush" id="infoSection">
+                                            <div class="accordion-item">
+                                                <h1 class="accordion-header" id="section-Title-One">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Televendas:
+                                                    </button>
+                                                </h1>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    aria-labelledby="section-Title-One" data-bs-parent="#infoSection">
+                                                    <div class="accordion-body">
+                                                        <h2 class="mb-0">4020-2430*</h2>
+                                                        <p class="mb-3">(capitais e regiões metropolitanas)</p>
+                                                        <h2 class="mb-0">0800-025-1501*</h2>
+                                                        <p class="mb-3">(outros locais - apenas telefone fixo)</p>
+                                                        <p class="mb-3">*Atendimento por telefone, das 9h às 18h (em
+                                                            dias
+                                                            úteis. Exceto
+                                                            feriados nacionais).</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h1 class="accordion-header" id="section-Title-Two">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Fale com o suporte:
+                                                    </button>
+                                                </h1>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="section-Title-Two" data-bs-parent="#infoSection">
+                                                    <div class="accordion-body">
+                                                        <h2 class="mb-0">4020-9735*</h2>
+                                                        <p class="mb-3">(capitais e regiões metropolitanas)</p>
+                                                        <h2 class="mb-0">0800-025-1518*</h2>
+                                                        <p class="mb-3">(outros locais - apenas telefone fixo)</p>
+                                                        <p class="mb-3">*Atendimento por telefone, das 9h às 18h (em
+                                                            dias
+                                                            úteis. Exceto
+                                                            feriados nacionais).</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h1 class="accordion-header" id="section-Title-Three">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        Políticas:
+                                                    </button>
+                                                </h1>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="section-Title-Three" data-bs-parent="#infoSection">
+                                                    <div class="accordion-body">
+                                                        <ul class="policies-list list-unstyled">
+                                                            <li class="mb-3">
+                                                                <a
+                                                                    href="/Documentos/Termos/codigo-de-etica_e-conduta-certisign-ptBR.pdf">Código
+                                                                    de ética</a>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <a href="https://www.certisign.com.br/certisign/canal-etica-certisign"
+                                                                    target="_blank">Canal de ética</a>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <a href="https://www.certisign.com.br/static/documentos/integridade/politica-de-integridade.pdf"
+                                                                    target="_blank">Política de Integridade</a>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <a href="/Info/PoliticaPrivacidade">Política de
+                                                                    privacidade</a>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <a href="javascript:void(0)"
+                                                                    onclick="window.sendAdoptCommand('open')">Política
+                                                                    de
+                                                                    cookies</a>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <a href="/Info/TermosDeUso">Termo de uso</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </footer>
+            </section>
 
-    <script src="./assets/js/bootstrap-5.3.0.bundle.min.js"></script>
-    <script src="./assets/js/new-pda.js"></script>
-</body>
+            <section class="social py-4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="container px-lg-5">
+                                <div class="row px-lg-5">
+                                    <div class="col-12 col-lg-4">
+                                        <h1 class="logocertisign-footer mb-4 mb-lg-0"><span
+                                                class="text-description">Certisign</span></h1>
+                                    </div>
+                                    <div class="col-12 col-lg-8 d-flex align-items-center">
+                                        <ul
+                                            class="social-list list-unstyled my-0 mx-auto p-0 d-flex align-items-center justify-content-around justify-content-lg-end">
+                                            <li class="icon-social linkedin">
+                                                <a href="https://www.linkedin.com/company/certisign" title="LinkedIn"
+                                                    target="_blank">
+                                                    <span class="text-description">LinkedIn</span>
+                                                </a>
+                                            </li>
+                                            <li class="icon-social youtube">
+                                                <a href="https://www.youtube.com/c/certisign" title="Youtube"
+                                                    target="_blank">
+                                                    <span class="text-description">Youtube</span>
+                                                </a>
+                                            </li>
+                                            <li class="icon-social instagram">
+                                                <a href="https://www.instagram.com/certisign" title="Instagram"
+                                                    target="_blank"><span class="text-description">Instagram</span></a>
+                                            </li>
+                                            <li class="icon-social facebook">
+                                                <a href="https://www.facebook.com/CertiSign" title="Facebook"
+                                                    target="_blank"><span class="text-description">Facebook</span></a>
+                                            </li>
+                                            <li class="icon-social twitter">
+                                                <a href="https://twitter.com/Certisign" title="Twitter"
+                                                    target="_blank"><span class="text-description">Twitter</span></a>
+                                            </li>
+                                            <li class="icon-social blog">
+                                                <a href="https://blog.certisign.com.br" title="Blog Certisign"
+                                                    target="_blank"><span class="text-description">Blog
+                                                        Certisign</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script src="./assets/js/bootstrap-5.3.0.bundle.min.js"></script>
+        <script src="./assets/js/new-pda.js"></script>
+    </body>
 
 </html>

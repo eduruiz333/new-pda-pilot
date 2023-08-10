@@ -83,6 +83,32 @@
                     margin-left: 15%;
                 }
             }
+
+            .sec-01 {
+                .resources {
+                    .tit {
+                        width: 30%;
+                        float: left;
+                    }
+
+                    .resources {
+                        width: 70%;
+                        float: right;
+                        padding-left: 60px;
+
+                        .resources-list {
+                            display: flex;
+                            gap: 20px;
+                        }
+                    }
+
+                    .free-try {
+                        width: 40%;
+                    }
+
+                }
+                
+            }
         }
 
 
