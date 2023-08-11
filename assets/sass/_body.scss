@@ -11,6 +11,8 @@
     }
 
     .btn {
+        font-family: $poppinsBold;
+        font-size: $px-16;
         border: none;
         box-shadow: none;
         border-radius: $px-24;
@@ -18,16 +20,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: -webkit-fill-available;
+        width: -moz-available;
 
         &.btn-primary {
-            background-color: $yellow-FFA100;
+            background-color: $orange-FFA100;
             color: $blue-004165;
-            font-family: $poppinsBold;
-            font-size: $px-16;
 
-            &:hover {
-                background-color: $yellow-E38E00;
+            &:hover,
+            &.btn-outline-primary:hover {
+                background-color: $orange-E38E00;
             }
+
+            &.btn-outline-primary {
+                background-color: $white-FFFFFF;
+                border: solid 2px $orange-FFA100;
+            }
+        }
+
+        &.btn-secondary {
+            background-color: $blue-004165;
+            color: $white-FFFFFF;
         }
     }
 
@@ -85,6 +98,23 @@
         }
     }
 
+    .list-type-check {
+        list-style: none;
+        padding: 0;
+
+        li {
+            background: url("../img/check-list.png") 0 7px no-repeat;
+            font-family: $poppinsBold;
+            font-size: $px-16;
+            line-height: $px-20;
+            padding-left: $px-25;
+            margin-bottom: $px-10;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
 
     .sec-01 {
         h1 {
@@ -135,12 +165,205 @@
             color: $black-333333;
 
             &.small {
-                    font-family: $poppinsRegular;
-                    font-size: $px-14;
-                    color: $blue-004165;
-                }
+                font-family: $poppinsRegular;
+                font-size: $px-14;
+                color: $blue-004165;
+            }
         }
 
     }
 
+
+    .sec-02 {
+        h1 {
+            font-family: $futuraPTCondExtraBold;
+            font-size: $px-40;
+            line-height: 46px;
+            color: $blue-004165;
+        }
+
+        .switches-container {
+            font-size: 16px;
+            border: solid 1px $grey-B5B5B5;
+
+            [type="radio"]:checked+label,
+            [type="radio"]:not(:checked)+label {
+                line-height: unset;
+                font-weight: unset;
+            }
+
+            --switches-bg-color: #FFF;
+            --switches-label-color: #B5B5B5;
+            --switch-bg-color: #004165;
+            --switch-text-color: #FFF;
+
+            height: 60px;
+            min-width: 180px;
+            max-width: 342px;
+            position: relative;
+            display: flex;
+            padding: 0;
+            position: relative;
+            background: var(--switches-bg-color);
+            line-height: 58px;
+            border-radius: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            .text-white {
+                color: $white-FFFFFF;
+            }
+
+            input {
+                visibility: hidden !important;
+                position: absolute;
+                top: 0;
+            }
+
+            label {
+                width: 50%;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                cursor: pointer;
+                color: var(--switches-label-color);
+
+                &::before,
+                &::after {
+                    display: none;
+                }
+            }
+
+            .switch-wrapper {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 50%;
+                padding: 4px;
+                z-index: 3;
+                transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+
+                .switch {
+                    border-radius: 3rem;
+                    background: var(--switch-bg-color);
+                    height: 100%;
+
+                    div {
+                        width: 100%;
+                        text-align: center;
+                        opacity: 0;
+                        display: block;
+                        color: var(--switch-text-color);
+                        transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+                        will-change: opacity;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+
+            input:nth-of-type(1):checked~.switch-wrapper {
+                transform: translateX(0%);
+            }
+
+            input:nth-of-type(2):checked~.switch-wrapper {
+                transform: translateX(100%);
+            }
+
+            input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+                opacity: 1;
+            }
+
+            input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+                opacity: 1;
+            }
+        }
+
+        .cards {
+            .item {
+                width: 100%;
+
+                .card {
+                    border: solid 1px $grey-B5B5B5;
+                    border-radius: 20px;
+
+                    &.mais-vendido {
+                        border: solid 3px $orange-FFA100;
+
+                        &::before {
+                            content: "Mais Vendido";
+                            background-color: $orange-FFA100;
+                            color: $blue-004165;
+                            font-family: $poppinsBold;
+                            font-size: 16px;
+                            text-align: center;
+                            width: 142px;
+                            margin: -15px auto -19px;
+                            border-radius: 8px;
+                            padding: 4px;
+                        }
+                    }
+
+                    .card-body {
+                        transition: all .3s ease;
+                        padding: 30px 35px 25px;
+
+                        h1 {
+                            font-size: 52px;
+                        }
+
+                        p {
+                            font-family: $poppinsRegular;
+                            color: $black-333333;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+
+                        .tag {
+                            display: inline-block;
+                            font-weight: bold;
+                            font-size: 16px;
+                            color: $white-FFFFFF;
+                            background: $orange-FFA100;
+                            border-radius: 5px;
+                            padding: 2px 8px;
+
+                            &:empty {
+                                padding: 0;
+                            }
+                        }
+
+                        .line-through {
+                            text-decoration: line-through;
+                            font-size: 18px;
+                            color: $orange-FFA100;
+                        }
+
+                        .valor {
+                            font-family: $futuraPTCondExtraBold;
+                            font-size: 52px;
+                            color: $blue-004165;
+
+                            small {
+                                font-size: 30px;
+                                font-family: inherit;
+
+                                span {
+                                    font-family: $poppinsBold;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            .comp {
+                                font-family: $poppinsBold;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
 }
