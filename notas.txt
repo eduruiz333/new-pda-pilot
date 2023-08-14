@@ -17,3 +17,8 @@ Selecionar todas as ocorrências em um arquivo: Ctrl + Shift + J
 https://www.figma.com/file/LDNnoi534vSbgWSWeRKgVl/Portal-Varejo---Nova-Vers%C3%A3o?type=design&node-id=438-1097&mode=design&t=icoR5J3wfuBhKvY2-0
 
 
+
+PARA EXPANDIR O MENU TELA TODA
+.navbar-collapse {
+    height: 650px;
+}
