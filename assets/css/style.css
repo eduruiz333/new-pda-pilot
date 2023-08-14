@@ -611,17 +611,11 @@ body {
   line-height: 1.875rem;
   color: #FFFFFF;
 }
-.new-pda .sec-04 .bg-blue-7095A8 {
-  background-color: #7095A8;
+.new-pda .sec-04 .bg-banner {
   border-radius: 16px;
-}
-.new-pda .sec-04 .bg-blue-7095A8 figure {
-  height: 210px;
-  overflow: hidden;
-}
-.new-pda .sec-04 .bg-blue-7095A8 figure img {
-  width: -webkit-fill-available;
-  width: -moz-available;
+  background: #7095A8 url("../img/banner2.png") 110% 220px no-repeat;
+  background-size: 120%;
+  height: 480px;
 }
 
 /* Footer
@@ -906,14 +900,50 @@ body {
   .new-pda main .sec-02 .cards .item .card .card-body .valor small span {
     font-size: 18px;
   }
-  .new-pda main .sec-04 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .new-pda main .sec-04 h1 {
     font-size: calc(3.25rem);
     line-height: calc(2.875rem);
+  }
+  .new-pda main .sec-04 .bg-banner {
+    border-radius: 16px;
+    background: #7095A8 url("../img/banner2.png") 80% -30px no-repeat;
+    background-size: unset;
+    height: 364px;
+  }
+  .new-pda main .sec-05 h1,
+  .new-pda main .sec-05 .big-number {
+    font-family: "futuraPTCondExtraBold", sans-serif;
+    font-size: calc(3.25rem);
+    line-height: calc(2.875rem);
+    color: #004165;
+    letter-spacing: -1px;
+  }
+  .new-pda main .sec-05 h2 {
+    font-family: "futuraPTCondExtraBold", sans-serif;
+    font-size: 30px;
+    color: #40718B;
+    padding-top: 55px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+  }
+  .new-pda main .sec-05 h2.icon-signature {
+    background-image: url("../img/icon-pen.png");
+  }
+  .new-pda main .sec-05 h2.icon-tree {
+    background-image: url("../img/icon-tree.png");
+  }
+  .new-pda main .sec-05 h2.icon-thermometer {
+    background-image: url("../img/icon-thermometer.png");
+  }
+  .new-pda main .sec-05 .big-number {
+    letter-spacing: -3px;
+  }
+  .new-pda main .sec-05 hr {
+    display: block;
+    margin: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #B5B5B5;
   }
   .new-pda footer .payment-methods .payment-list {
     width: 100%;

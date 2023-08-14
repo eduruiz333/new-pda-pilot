@@ -191,12 +191,63 @@
             }
 
             .sec-04 {
-                display: flex;
-                
+
                 h1 {
                     font-size: calc(#{$px-50 + $px-2});
                     line-height: calc(#{$px-40 + $px-6});
-        
+                }
+
+                .bg-banner {
+                    border-radius: 16px;
+                    background: $blue-7095A8 url("../img/banner2.png") 80% -30px no-repeat;
+                    background-size: unset;
+                    height: 364px;
+                }
+            }
+
+            .sec-05 {
+
+                h1,
+                .big-number {
+                    font-family: $futuraPTCondExtraBold;
+                    font-size: calc(#{$px-50 + $px-2});
+                    line-height: calc(#{$px-40 + $px-6});
+                    color: $blue-004165;
+                    letter-spacing: -1px;
+                }
+
+                h2 {
+                    font-family: $futuraPTCondExtraBold;
+                    font-size: 30px;
+                    color: $blue-40718B;
+                    padding-top: 55px;
+                    background-position: center 0;
+                    background-repeat: no-repeat;
+
+                    &.icon-signature {
+                        background-image: url("../img/icon-pen.png");
+                    }
+
+                    &.icon-tree {
+                        background-image: url("../img/icon-tree.png");
+                    }
+
+                    &.icon-thermometer {
+                        background-image: url("../img/icon-thermometer.png");
+                    }
+
+                }
+
+                .big-number {
+                    letter-spacing: -3px;
+                }
+
+                hr {
+                    display: block;
+                    margin: 0;
+                    height: 100%;
+                    width: 2px;
+                    background-color: $grey-B5B5B5;
                 }
             }
 

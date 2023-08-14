@@ -396,19 +396,11 @@
 
         }
 
-        .bg-blue-7095A8 {
-            background-color:  $blue-7095A8;
+        .bg-banner {
             border-radius: 16px;
-
-            figure {
-                height: 210px;
-                overflow: hidden;
-
-                img {
-                    width: -webkit-fill-available;
-                    width: -moz-available;
-                }
-            }
+            background: $blue-7095A8 url("../img/banner2.png") 110% 220px no-repeat;
+            background-size: 120%;
+            height: 480px;
         }
     }
 }
