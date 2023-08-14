@@ -41,6 +41,10 @@
         &.btn-secondary {
             background-color: $blue-004165;
             color: $white-FFFFFF;
+
+            &:hover {
+                background-color: $blue-002B4D;
+            }
         }
     }
 
@@ -365,5 +369,46 @@
             }
         }
 
+    }
+
+    .sec-03 {
+        h1 {
+            font-family: $futuraPTCondExtraBold;
+            font-size: calc(#{$px-50 + $px-8});
+            line-height: 52px;
+            color: $blue-004165;
+        }
+
+        .small {
+            font-family: $poppinsRegular;
+            font-size: $px-14;
+            color: $blue-004165;
+        }
+    }
+
+    .sec-04 {
+        
+        h1 {
+            font-family: $futuraPTCondExtraBold;
+            font-size: $px-30;
+            line-height: $px-30;
+            color: $white-FFFFFF;
+
+        }
+
+        .bg-blue-7095A8 {
+            background-color:  $blue-7095A8;
+            border-radius: 16px;
+
+            figure {
+                height: 210px;
+                overflow: hidden;
+
+                img {
+                    width: -webkit-fill-available;
+                    width: -moz-available;
+                }
+            }
+        }
     }
 }

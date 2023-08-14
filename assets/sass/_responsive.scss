@@ -190,6 +190,16 @@
 
             }
 
+            .sec-04 {
+                display: flex;
+                
+                h1 {
+                    font-size: calc(#{$px-50 + $px-2});
+                    line-height: calc(#{$px-40 + $px-6});
+        
+                }
+            }
+
         }
 
 

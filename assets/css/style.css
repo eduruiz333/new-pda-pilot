@@ -321,6 +321,9 @@ body {
   background-color: #004165;
   color: #FFFFFF;
 }
+.new-pda .btn.btn-secondary:hover {
+  background-color: #002B4D;
+}
 .new-pda .arrow-right {
   font-family: "poppinsBold", sans-serif;
   font-size: 1rem;
@@ -590,6 +593,35 @@ body {
 .new-pda .sec-02 .cards .item .card .card-body .valor .comp {
   font-family: "poppinsBold", sans-serif;
   font-size: 18px;
+}
+.new-pda .sec-03 h1 {
+  font-family: "futuraPTCondExtraBold", sans-serif;
+  font-size: calc(3.625rem);
+  line-height: 52px;
+  color: #004165;
+}
+.new-pda .sec-03 .small {
+  font-family: "poppinsRegular", sans-serif;
+  font-size: 0.875rem;
+  color: #004165;
+}
+.new-pda .sec-04 h1 {
+  font-family: "futuraPTCondExtraBold", sans-serif;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  color: #FFFFFF;
+}
+.new-pda .sec-04 .bg-blue-7095A8 {
+  background-color: #7095A8;
+  border-radius: 16px;
+}
+.new-pda .sec-04 .bg-blue-7095A8 figure {
+  height: 210px;
+  overflow: hidden;
+}
+.new-pda .sec-04 .bg-blue-7095A8 figure img {
+  width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 /* Footer
@@ -873,6 +905,15 @@ body {
   }
   .new-pda main .sec-02 .cards .item .card .card-body .valor small span {
     font-size: 18px;
+  }
+  .new-pda main .sec-04 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .new-pda main .sec-04 h1 {
+    font-size: calc(3.25rem);
+    line-height: calc(2.875rem);
   }
   .new-pda footer .payment-methods .payment-list {
     width: 100%;
