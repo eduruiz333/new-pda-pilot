@@ -23,6 +23,15 @@
         width: -webkit-fill-available;
         width: -moz-available;
 
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba($color: $black-000000, $alpha: .2);
+        }
+        &:active {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba($color: $black-000000, $alpha: .2);
+        }
+
         &.btn-primary {
             background-color: $orange-FFA100;
             color: $blue-004165;

@@ -22,3 +22,8 @@ PARA EXPANDIR O MENU TELA TODA
 .navbar-collapse {
     height: 650px;
 }
+
+
+.CSS => 28,8 K
+.MIN => 24,4 K
+REDUÇÃO => 15,27%
