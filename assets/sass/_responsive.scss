@@ -1,15 +1,15 @@
 // xs — Extra Small Screens
-@media (min-width: 576px) {
+@media (min-width: 57.6rem) {
     .new-pda {}
 }
 
 // s — Small Screens
-@media (min-width: 768px) {
+@media (min-width: 76.8rem) {
     .new-pda {}
 }
 
 // m — Medium Screens
-@media (min-width: 992px) {
+@media (min-width: 99.2rem) {
     .new-pda {
         &.active-menu {
 
@@ -26,15 +26,15 @@
                 .nav-main {
                     .navbar {
                         .nav-link {
-                            margin-right: $px-5;
+                            margin-right: .5rem;
 
                             &.active {
                                 display: block;
-                                border-bottom: solid 3px $blue-004165;
+                                border-bottom: solid .3rem $blue-004165;
                             }
 
                             &:hover {
-                                border-bottom: solid 3px $blue-004165;
+                                border-bottom: solid .3rem $blue-004165;
                             }
                         }
                     }
@@ -45,13 +45,13 @@
         header {
             .login-bar {
                 .main-title {
-                    font-size: $px-40;
+                    font-size: 4rem;
                 }
             }
 
             .navbar,
             .nav-link {
-                height: $px-50;
+                height: 5rem;
             }
         }
 
@@ -65,17 +65,17 @@
                 }
 
                 .mob-height {
-                    height: 630px;
+                    height: 63rem;
                 }
 
                 .main-title {
                     font-family: $futuraPTCondExtraBold;
-                    font-size: calc(#{$px-50 + $px-14});
-                    line-height: calc(#{$px-50 + $px-5});
+                    font-size: 6.4rem;
+                    line-height: 5.5rem;
                 }
 
                 .regular-text {
-                    line-height: $px-26;
+                    line-height: 2.6rem;
                 }
 
                 .img-banner {
@@ -94,11 +94,11 @@
                     .resources {
                         width: 70%;
                         float: right;
-                        padding-left: 60px;
+                        padding-left: 6rem;
 
                         .resources-list {
                             display: flex;
-                            gap: 20px;
+                            gap: 2rem;
                         }
                     }
 
@@ -114,7 +114,7 @@
             .sec-02 {
                 h1 {
                     font-family: $futuraPTCondExtraBold;
-                    font-size: 52px;
+                    font-size: 5.2rem;
                 }
 
                 .cards {
@@ -122,64 +122,64 @@
                     flex-wrap: nowrap;
                     align-items: stretch;
                     align-content: stretch;
-                    gap: 20px;
+                    gap: 2rem;
 
                     .item {
                         flex-grow: 0;
                         flex-shrink: 1;
                         flex-basis: auto;
                         align-self: auto;
-                        height: 670px;
+                        height: 67rem;
 
                         .card {
-                            border-radius: 20px;
-                            padding-bottom: 10px;
+                            border-radius: 2rem;
+                            padding-bottom: 1rem;
 
                             .card-body {
-                                min-height: 640px;
+                                min-height: 64rem;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: space-between;
-                                padding-top: 10px;
+                                padding-top: 1rem;
 
 
 
                                 h1 {
                                     font-family: $futuraPTCondExtraBold;
-                                    font-size: 58px;
+                                    font-size: 5.8rem;
                                     line-height: inherit;
                                 }
 
                                 p {
-                                    font-size: 16px;
-                                    line-height: 24px;
+                                    font-size: 1.6rem;
+                                    line-height: 2.4rem;
                                 }
 
                                 .tag {
                                     display: inline-block;
                                     font-weight: bold;
-                                    font-size: 16px;
+                                    font-size: 1.6rem;
                                     color: $white-FFFFFF;
                                     background: green;
-                                    border-radius: 5px;
-                                    padding: 2px 8px;
+                                    border-radius: .5rem;
+                                    padding: .2prem .8rem;
                                 }
 
                                 .line-through {
                                     text-decoration: line-through;
-                                    font-size: 18px;
+                                    font-size: 1.8rem;
                                     color: orange;
                                 }
 
                                 .valor {
-                                    font-size: 46px;
+                                    font-size: 4.6rem;
 
                                     small {
-                                        font-size: 30px;
+                                        font-size: 3rem;
                                         font-family: inherit;
 
                                         span {
-                                            font-size: 18px;
+                                            font-size: 1.8rem;
                                         }
                                     }
                                 }
@@ -193,15 +193,15 @@
             .sec-04 {
 
                 h1 {
-                    font-size: calc(#{$px-50 + $px-2});
-                    line-height: calc(#{$px-40 + $px-6});
+                    font-size: 5.2rem;
+                    line-height: 4.6rem;
                 }
 
                 .bg-banner {
-                    border-radius: 16px;
-                    background: $blue-7095A8 url("../img/banner2.png") 80% -30px no-repeat;
+                    border-radius: 1.6rem;
+                    background: $blue-7095A8 url("../img/banner2.png") 80% -3rem no-repeat;
                     background-size: unset;
-                    height: 364px;
+                    height: 36.4rem;
                 }
             }
 
@@ -210,17 +210,17 @@
                 h1,
                 .big-number {
                     font-family: $futuraPTCondExtraBold;
-                    font-size: calc(#{$px-50 + $px-2});
-                    line-height: calc(#{$px-40 + $px-6});
+                    font-size: 5.2rem;
+                    line-height: 4.6rem;
                     color: $blue-004165;
-                    letter-spacing: -1px;
+                    letter-spacing: -.1rem;
                 }
 
                 h2 {
                     font-family: $futuraPTCondExtraBold;
-                    font-size: 30px;
+                    font-size: 3rem;
                     color: $blue-40718B;
-                    padding-top: 55px;
+                    padding-top: 5.5rem;
                     background-position: center 0;
                     background-repeat: no-repeat;
 
@@ -239,14 +239,14 @@
                 }
 
                 .big-number {
-                    letter-spacing: -3px;
+                    letter-spacing: -.3rem;
                 }
 
                 hr {
                     display: block;
                     margin: 0;
                     height: 100%;
-                    width: 2px;
+                    width: .2rem;
                     background-color: $grey-B5B5B5;
                 }
             }
@@ -308,17 +308,12 @@
 }
 
 // l — Large Screens
-@media (min-width: 1200px) {
+@media (min-width: 120rem) {
     .new-pda {}
 }
 
 // xl — Extra Large Screens
-@media (min-width: 1400px) {
-    .new-pda {}
-}
-
-// xxl — Extra Large Screens
-@media (min-width: 1400px) {
+@media (min-width: 140rem) {
     .new-pda {
         .sec-02 {
             .owl-stage-outer {
@@ -328,11 +323,11 @@
                             .card {
                                 .card-body {
                                     h1 {
-                                        font-size: 52px;
+                                        font-size: 5.2rem;
                                     }
 
                                     .valor {
-                                        font-size: 52px;
+                                        font-size: 5.2rem;
                                     }
                                 }
                             }

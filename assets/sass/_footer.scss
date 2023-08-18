@@ -9,30 +9,30 @@
 
         h1 {
             font-family: $poppinsBold;
-            font-size: $px-18;
+            font-size: 1.8rem;
         }
 
         .text-description {
             position: absolute;
-            width: 1px;
-            height: 1px;
+            width: .1rem;
+            height: .1rem;
             padding: 0;
-            margin: -1px;
+            margin: -.1rem;
             overflow: hidden;
             clip: rect(0, 0, 0, 0);
             border: 0;
-            font-size: 1px;
+            font-size: .1rem;
         }
 
         .payment-methods {
             .payment-list {
                 width: 80%;
                 column-gap: 10%;
-                row-gap: 15px;
+                row-gap: 1.5rem;
 
                 .icon-paiment {
-                    width: 43px;
-                    height: 30px;
+                    width: 4.3rem;
+                    height: 3rem;
                     background-image: url("../img/footer-cards.png");
                     background-repeat: no-repeat;
                     position: relative;
@@ -43,27 +43,27 @@
                     }
 
                     &.visa {
-                        background-position: -66px center;
+                        background-position: -6.6rem center;
                     }
 
                     &.master {
-                        background-position: -131px center;
+                        background-position: -13.1rem center;
                     }
 
                     &.amex {
-                        background-position: -196px center;
+                        background-position: -19.6rem center;
                     }
 
                     &.diners {
-                        background-position: -262px center;
+                        background-position: -26.2rem center;
                     }
 
                     &.elo {
-                        background-position: -327px center;
+                        background-position: -32.7rem center;
                     }
 
                     &.hipercard {
-                        background-position: -392px center;
+                        background-position: -39.2rem center;
                     }
 
                     &.boleto {
@@ -83,12 +83,12 @@
                     
                     h2 {
                         font-family: $poppinsBold;
-                        font-size: $px-18;
+                        font-size: 1.8rem;
                     }
     
                     p, li {
                         font-family: $poppinsRegular;
-                        font-size: $px-14;
+                        font-size: 1.4rem;
                     }
     
                     .policies-list a {
@@ -126,8 +126,8 @@
             background-color: rgba($color: $black-000000, $alpha: 0.5);
 
             .logocertisign-footer {
-                width: 145px;
-                height: 43px;
+                width: 14.5rem;
+                height: 4.3rem;
                 background: url("../img/footer-logotipo-certiSign.png") center center no-repeat;
             }
 
@@ -136,8 +136,8 @@
                 column-gap: 10%;
 
                 .icon-social {
-                    width: 27px;
-                    height: 27px;
+                    width: 2.7rem;
+                    height: 2.7rem;
                     background-image: url("../img/footer-social.png");
                     background-repeat: no-repeat;
 
@@ -153,23 +153,23 @@
                     }
 
                     &.youtube {
-                        background-position: -54px center;
+                        background-position: -5.4rem center;
                     }
 
                     &.instagram {
-                        background-position: -108px center;
+                        background-position: -10.8rem center;
                     }
 
                     &.facebook {
-                        background-position: -162px center;
+                        background-position: -16.2rem center;
                     }
 
                     &.twitter {
-                        background-position: -216px center;
+                        background-position: -21.6rem center;
                     }
 
                     &.blog {
-                        background-position: -270px center;
+                        background-position: -27rem center;
                     }
 
                 }
