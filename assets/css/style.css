@@ -88,6 +88,10 @@ body {
 --------------------------------------------------- */
 .new-pda header {
   background-color: #004165;
+  position: fixed;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  z-index: 10;
 }
 .new-pda header .notice-bar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -175,7 +179,8 @@ body {
   border: none;
 }
 .new-pda header .nav-main .navbar .navbar-toggler {
-  height: 1.2rem;
+  width: 2.5rem;
+  height: 5.5rem;
   position: relative;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -302,7 +307,7 @@ body {
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-radius: 2.4rem;
+  border-radius: 100rem;
   height: 4.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,6 +321,7 @@ body {
   width: -webkit-fill-available;
   width: -moz-available;
   position: relative;
+  padding: 3rem 1rem;
 }
 .new-pda .btn:hover {
   -webkit-transform: translateY(-0.2rem);
@@ -364,6 +370,7 @@ body {
 .new-pda .banner {
   color: #FFFFFF;
   background: #7095A8 url("../img/banner-02.png") center bottom no-repeat;
+  padding-top: 12rem;
 }
 .new-pda .banner .arrow-right {
   color: #FFFFFF;
@@ -636,9 +643,9 @@ body {
 }
 .new-pda .sec-04 .bg-banner {
   border-radius: 1.6rem;
-  background: #7095A8 url("../img/banner2.png") 110% 2.2rem no-repeat;
+  background: #7095A8 url("../img/banner2.png") 110% 22rem no-repeat;
   background-size: 120%;
-  height: 4.8rem;
+  height: 48rem;
 }
 
 /* Footer
@@ -708,6 +715,10 @@ body {
 .new-pda footer .infos .accordion .accordion-item {
   border-color: #7A9EB3;
 }
+.new-pda footer .infos .accordion .accordion-item .accordion-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .new-pda footer .infos .accordion .accordion-item h2 {
   font-family: "poppinsBold", sans-serif;
   font-size: 1.8rem;
@@ -728,6 +739,8 @@ body {
 }
 .new-pda footer .infos .accordion .accordion-item .accordion-button {
   color: #FFFFFF;
+  font-family: "poppinsBold", sans-serif;
+  font-size: 1.8rem;
 }
 .new-pda footer .infos .accordion .accordion-item .accordion-button:focus {
   border: none;

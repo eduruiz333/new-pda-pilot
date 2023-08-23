@@ -26,7 +26,7 @@ body {
         font-size: 1.6rem;
         border: none;
         box-shadow: none;
-        border-radius: 2.4rem;
+        border-radius: 100rem;
         height: 4.8rem;
         display: flex;
         align-items: center;
@@ -34,6 +34,7 @@ body {
         width: -webkit-fill-available;
         width: -moz-available;
         position: relative;
+        padding: 3rem 1rem;
 
         &:hover {
             transform: translateY(-.2rem);
@@ -88,6 +89,7 @@ body {
     .banner {
         color: $white-FFFFFF;
         background: $blue-7095A8 url("../img/banner-02.png") center bottom no-repeat;
+        padding-top: 12rem;
 
         .arrow-right {
             color: $white-FFFFFF;
@@ -419,9 +421,9 @@ body {
 
         .bg-banner {
             border-radius: 1.6rem;
-            background: $blue-7095A8 url("../img/banner2.png") 110% 2.2rem no-repeat;
+            background: $blue-7095A8 url("../img/banner2.png") 110% 22rem no-repeat;
             background-size: 120%;
-            height: 4.8rem;
+            height: 48rem;
         }
     }
 }

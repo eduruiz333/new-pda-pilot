@@ -78,8 +78,14 @@
                 * {
                     background-color: $blue-004165;
                 }
+
                 .accordion-item {
                     border-color: $blue-7A9EB3;
+
+                    .accordion-header {
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                    }
                     
                     h2 {
                         font-family: $poppinsBold;
@@ -106,6 +112,8 @@
     
                     .accordion-button {
                         color: $white-FFFFFF;
+                        font-family: $poppinsBold;
+                        font-size: 1.8rem;
     
                         &:focus {
                             border: none;
