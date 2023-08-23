@@ -30,3 +30,5 @@ REDUÇÃO => 15,27%
 
 
 <img src="~/Content/themes/pda-new/images/bg_hightlight.png" class="mx-auto img-fluid" alt="@Resources.Common.AccelerateRoutine" role="img" aria-label="@Resources.Common.AccelerateRoutine" />
+
+Site\Content\themes\shared\fonts\poppins\css\poppins.css
